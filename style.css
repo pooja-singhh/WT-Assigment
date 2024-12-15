@@ -1,0 +1,206 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f9;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4a90e2;
+    padding: 10px 20px;
+  }
+  
+  .navbar .logo {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar .nav-links li {
+    display: inline;
+    list-style: none;
+    margin: 0 10px;
+  }
+  
+  .navbar .nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+  
+  .navbar .nav-links li a:hover {
+    color: #ffcc00;
+  }
+  
+  .dark-mode-toggle {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #e6f7ff;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+  }
+  
+  .profile-pic {
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #4a90e2;
+  }
+  
+  /* Sections */
+  section {
+    padding: 20px;
+    margin: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  section h2 {
+    font-size: 1.8rem;
+    color: #4a90e2;
+  }
+  
+  section p, ul {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+  /* Contact Section */
+  form label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  form button {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #ffcc00;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4a90e2;
+    color: white;
+  }
+  
+
+  /* Global Dark Mode */
+body.dark-mode {
+    background-color: #121212; /* Dark Background */
+    color: #e0e0e0; /* Light Text */
+  }
+  
+  /* Navbar in Dark Mode */
+  body.dark-mode .navbar {
+    background-color: #333333;
+  }
+  
+  body.dark-mode .navbar .nav-links a {
+    color: #e0e0e0; /* Light Text */
+  }
+  
+  body.dark-mode .navbar .nav-links a:hover {
+    color: #ffcc00;
+  }
+  
+  /* Sections in Dark Mode */
+  body.dark-mode section {
+    background-color: #1e1e1e; /* Darker Section Background */
+    color: #e0e0e0; /* Light Text */
+  }
+  
+  /* Footer in Dark Mode */
+  body.dark-mode footer {
+    background-color: #333333;
+    color: #e0e0e0;
+  }
+  
+    /* Default Light Mode Styles */
+body {
+    background-color: #ffffff; /* Light background */
+    color: #000000; /* Dark text */
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #f0f0f0; /* Light navbar */
+    color: #000000; /* Navbar text */
+  }
+  
+  .navbar .nav-links a {
+    color: #000000; /* Default link color */
+    text-decoration: none;
+  }
+  
+  .navbar .nav-links a:hover {
+    color: #007BFF; /* Hover color */
+  }
+  
+  footer {
+    background-color: #f0f0f0;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Dark Mode Styles */
+  body.dark-mode {
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text */
+  }
+  
+  body.dark-mode .navbar {
+    background-color: #333333;
+    color: #e0e0e0;
+  }
+  
+  body.dark-mode .navbar .nav-links a {
+    color: #e0e0e0;
+  }
+  
+  body.dark-mode footer {
+    background-color: #333333;
+    color: #e0e0e0;
+  }
+  
+  
